@@ -1,0 +1,6 @@
+framework module Pods_AmaanChat {
+  umbrella header "Pods-AmaanChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

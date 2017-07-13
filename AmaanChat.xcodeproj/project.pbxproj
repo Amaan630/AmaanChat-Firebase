@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E068CAA37886E9A4789258C /* Pods_AmaanChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC116DFD0F5246F64EF2008 /* Pods_AmaanChatUITests.framework */; };
+		4A30D621F2B5175C55DFC54B /* Pods_AmaanChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC04157E2B344F4285AF6F14 /* Pods_AmaanChatTests.framework */; };
 		D319F3091F1700A30062AE11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D319F3081F1700A30062AE11 /* AppDelegate.swift */; };
 		D319F30B1F1700A30062AE11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D319F30A1F1700A30062AE11 /* ViewController.swift */; };
 		D319F30E1F1700A30062AE11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D319F30C1F1700A30062AE11 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		D319F3161F1700A30062AE11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D319F3141F1700A30062AE11 /* LaunchScreen.storyboard */; };
 		D319F3211F1700A30062AE11 /* AmaanChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D319F3201F1700A30062AE11 /* AmaanChatTests.swift */; };
 		D319F32C1F1700A30062AE11 /* AmaanChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D319F32B1F1700A30062AE11 /* AmaanChatUITests.swift */; };
+		D33BABBC1F17B03C0060BDBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D33BABBB1F17B03C0060BDBC /* GoogleService-Info.plist */; };
+		D7A29FA4AAF2AEAA2BE18DE8 /* Pods_AmaanChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6014DF85291C07F5C209BD06 /* Pods_AmaanChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CC116DFD0F5246F64EF2008 /* Pods_AmaanChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmaanChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		260E1B45A4C3A8551EF2A564 /* Pods-AmaanChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmaanChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmaanChat/Pods-AmaanChat.release.xcconfig"; sourceTree = "<group>"; };
+		6014DF85291C07F5C209BD06 /* Pods_AmaanChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmaanChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8148C39A231961022F11F108 /* Pods-AmaanChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmaanChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmaanChatUITests/Pods-AmaanChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		94CDA43DD42A52A48B8B8992 /* Pods-AmaanChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmaanChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmaanChat/Pods-AmaanChat.debug.xcconfig"; sourceTree = "<group>"; };
+		BC04157E2B344F4285AF6F14 /* Pods_AmaanChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmaanChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF30DE1CC71B0A80702EA485 /* Pods-AmaanChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmaanChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmaanChatUITests/Pods-AmaanChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CBCF4CC0EC01DFC093D1759C /* Pods-AmaanChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmaanChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmaanChatTests/Pods-AmaanChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D319F3051F1700A30062AE11 /* AmaanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmaanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D319F3081F1700A30062AE11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D319F30A1F1700A30062AE11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		D319F3271F1700A30062AE11 /* AmaanChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmaanChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D319F32B1F1700A30062AE11 /* AmaanChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmaanChatUITests.swift; sourceTree = "<group>"; };
 		D319F32D1F1700A30062AE11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33BABBB1F17B03C0060BDBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E0D1D924A851816892A2DA73 /* Pods-AmaanChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmaanChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmaanChatTests/Pods-AmaanChatTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A29FA4AAF2AEAA2BE18DE8 /* Pods_AmaanChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A30D621F2B5175C55DFC54B /* Pods_AmaanChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E068CAA37886E9A4789258C /* Pods_AmaanChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A1B47E40770E986BFD53D47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94CDA43DD42A52A48B8B8992 /* Pods-AmaanChat.debug.xcconfig */,
+				260E1B45A4C3A8551EF2A564 /* Pods-AmaanChat.release.xcconfig */,
+				CBCF4CC0EC01DFC093D1759C /* Pods-AmaanChatTests.debug.xcconfig */,
+				E0D1D924A851816892A2DA73 /* Pods-AmaanChatTests.release.xcconfig */,
+				8148C39A231961022F11F108 /* Pods-AmaanChatUITests.debug.xcconfig */,
+				BF30DE1CC71B0A80702EA485 /* Pods-AmaanChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8421D92CFE1B9E7A1C699FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6014DF85291C07F5C209BD06 /* Pods_AmaanChat.framework */,
+				BC04157E2B344F4285AF6F14 /* Pods_AmaanChatTests.framework */,
+				1CC116DFD0F5246F64EF2008 /* Pods_AmaanChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D319F2FC1F1700A30062AE11 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				D319F31F1F1700A30062AE11 /* AmaanChatTests */,
 				D319F32A1F1700A30062AE11 /* AmaanChatUITests */,
 				D319F3061F1700A30062AE11 /* Products */,
+				6A1B47E40770E986BFD53D47 /* Pods */,
+				8421D92CFE1B9E7A1C699FDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +148,7 @@
 				D319F3141F1700A30062AE11 /* LaunchScreen.storyboard */,
 				D319F3171F1700A30062AE11 /* Info.plist */,
 				D319F30F1F1700A30062AE11 /* AmaanChat.xcdatamodeld */,
+				D33BABBB1F17B03C0060BDBC /* GoogleService-Info.plist */,
 			);
 			path = AmaanChat;
 			sourceTree = "<group>";
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D319F3301F1700A30062AE11 /* Build configuration list for PBXNativeTarget "AmaanChat" */;
 			buildPhases = (
+				BD0E2B6BD1E2B5F8FA6FDB2E /* [CP] Check Pods Manifest.lock */,
 				D319F3011F1700A30062AE11 /* Sources */,
 				D319F3021F1700A30062AE11 /* Frameworks */,
 				D319F3031F1700A30062AE11 /* Resources */,
+				36390BE4743760A7D2EC7A35 /* [CP] Embed Pods Frameworks */,
+				783D154ECB80EBD669DDB9FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D319F3331F1700A30062AE11 /* Build configuration list for PBXNativeTarget "AmaanChatTests" */;
 			buildPhases = (
+				FA9109A7772C687FA8B6313F /* [CP] Check Pods Manifest.lock */,
 				D319F3181F1700A30062AE11 /* Sources */,
 				D319F3191F1700A30062AE11 /* Frameworks */,
 				D319F31A1F1700A30062AE11 /* Resources */,
+				7982242C086BF6730DC3A889 /* [CP] Embed Pods Frameworks */,
+				73426F0F44B2DFEAB8594523 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D319F3361F1700A30062AE11 /* Build configuration list for PBXNativeTarget "AmaanChatUITests" */;
 			buildPhases = (
+				68BEF90AEA6729F6917E245E /* [CP] Check Pods Manifest.lock */,
 				D319F3231F1700A30062AE11 /* Sources */,
 				D319F3241F1700A30062AE11 /* Frameworks */,
 				D319F3251F1700A30062AE11 /* Resources */,
+				F8817A1BAA8DAAFC3F7E7166 /* [CP] Embed Pods Frameworks */,
+				EFD7D6AD2F8D210205A53A2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D319F3161F1700A30062AE11 /* LaunchScreen.storyboard in Resources */,
+				D33BABBC1F17B03C0060BDBC /* GoogleService-Info.plist in Resources */,
 				D319F3131F1700A30062AE11 /* Assets.xcassets in Resources */,
 				D319F30E1F1700A30062AE11 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +312,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36390BE4743760A7D2EC7A35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AmaanChat/Pods-AmaanChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmaanChat/Pods-AmaanChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68BEF90AEA6729F6917E245E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmaanChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73426F0F44B2DFEAB8594523 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmaanChatTests/Pods-AmaanChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		783D154ECB80EBD669DDB9FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmaanChat/Pods-AmaanChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7982242C086BF6730DC3A889 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmaanChatTests/Pods-AmaanChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD0E2B6BD1E2B5F8FA6FDB2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmaanChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD7D6AD2F8D210205A53A2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmaanChatUITests/Pods-AmaanChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8817A1BAA8DAAFC3F7E7166 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmaanChatUITests/Pods-AmaanChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA9109A7772C687FA8B6313F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmaanChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D319F3011F1700A30062AE11 /* Sources */ = {
@@ -417,6 +620,7 @@
 		};
 		D319F3311F1700A30062AE11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94CDA43DD42A52A48B8B8992 /* Pods-AmaanChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YVLUUPZQCB;
@@ -430,6 +634,7 @@
 		};
 		D319F3321F1700A30062AE11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260E1B45A4C3A8551EF2A564 /* Pods-AmaanChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YVLUUPZQCB;
@@ -443,6 +648,7 @@
 		};
 		D319F3341F1700A30062AE11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBCF4CC0EC01DFC093D1759C /* Pods-AmaanChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +664,7 @@
 		};
 		D319F3351F1700A30062AE11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D1D924A851816892A2DA73 /* Pods-AmaanChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +680,7 @@
 		};
 		D319F3371F1700A30062AE11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8148C39A231961022F11F108 /* Pods-AmaanChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = YVLUUPZQCB;
@@ -487,6 +695,7 @@
 		};
 		D319F3381F1700A30062AE11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF30DE1CC71B0A80702EA485 /* Pods-AmaanChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = YVLUUPZQCB;
@@ -518,6 +727,7 @@
 				D319F3321F1700A30062AE11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D319F3331F1700A30062AE11 /* Build configuration list for PBXNativeTarget "AmaanChatTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +736,7 @@
 				D319F3351F1700A30062AE11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D319F3361F1700A30062AE11 /* Build configuration list for PBXNativeTarget "AmaanChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +745,7 @@
 				D319F3381F1700A30062AE11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
